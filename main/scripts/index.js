@@ -35,16 +35,21 @@ class View {
     this.incomesEl = document.querySelector('.incomes-total');
   }
 
+  handleInputExpenses () {
+    
+
+  }
+
   displayBudget(budget) {
-    this.budgetEl.textContent = budget;
+    this.budgetEl.innerHTML = budget;
   }
 
   displayExpenses(expenses) {
-    this.expensesEl.textContent = expenses;
+    this.expensesEl.innerHTML = expenses;
   }
 
   displayIncomes(incomes) {
-    this.incomesEl.textContent = incomes;
+    this.incomesEl.innerHTML = incomes;
   }
 }
 class Controller {

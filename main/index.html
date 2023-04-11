@@ -20,23 +20,25 @@
     </header>
     <main>
       <article>
-        <form class="moneyOut">
+        <div class="moneyOut">
             <label for="expense-amount">Введите сумму расхода:</label>
             <input type="number" id="expense-amount">
             <label for="expense-description">Введите описание расхода:</label>
             <input type="text" id="expense-description">
             <button id="add-expense">Добавить расход</button>
-          </form>
+          </div>
           
-          <form class="moneyOut">
+          <div class="moneyOut">
             <label for="income-amount">Введите сумму дохода:</label>
             <input type="number" id="income-amount">
             <label for="income-description">Введите описание дохода:</label>
             <input type="text" id="income-description">
             <button id="add-income">Добавить доход</button>
-          </form>
+          </div>
           
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed dolores necessitatibus aperiam. Libero porro unde tenetur id dolore, animi voluptatibus iste corrupti facilis ipsam delectus. Libero est quos ipsam aliquam?</p>
+          Бюджет:<div class="budget-total"></div>
+          Сумма трат:<div class="expenses-total"></div>
+          Сумма доходов<div class="incomes-total"></div>
 
       </article>
     </main>
